@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resultbackground"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/resulthomebtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/homebutton"
+        android:layout_marginTop="12dp"
+         android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_margin="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <!--<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_margin="40dp"
+   android:orientation="vertical">
+
+   <LinearLayout
+       android:id="@+id/whatsapp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           app:srcCompat="@drawable/whatsapp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WhatsApp"
+           android:textSize="20dp"
+           android:textColor="#000"
+           android:fontFamily="sans-serif-light"
+           android:layout_gravity="center"
+           android:layout_marginLeft="10dp"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/facebook"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           app:srcCompat="@drawable/facebook"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WhatsApp"
+           android:textSize="20dp"
+           android:textColor="#000"
+           android:fontFamily="sans-serif-light"
+           android:layout_gravity="center"
+           android:layout_marginLeft="10dp"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:id="@+id/instagram"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           app:srcCompat="@drawable/instagram"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="WhatsApp"
+           android:textSize="20dp"
+           android:textColor="#000"
+           android:fontFamily="sans-serif-light"
+           android:layout_gravity="center"
+           android:layout_marginLeft="10dp"/>
+           android:layout_marginLeft="10dp"/>
+   </LinearLayout>
+
+</LinearLayout>-->
+</LinearLayout>
